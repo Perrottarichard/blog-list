@@ -16,10 +16,12 @@ blogRouter.post('/', async (request, response) => {
         response.status(201).json(result)
     }
 })
+
 blogRouter.put('/:id', async (request, response) => {
     await Blog.findByIdAndUpdate(request.params.id, request.body)
     response.status(200).json('blog updated')
 })
+
 blogRouter.delete('/:id', async (request, response) => {
     await Blog.findByIdAndDelete(request.params.id)
     response.status(204).json('blog deleted')
