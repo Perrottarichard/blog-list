@@ -1,0 +1,6 @@
+POST http://localhost:3003/api/blog
+Content-Type: application/json
+
+{
+    "title": "Testing123", "author": "FakeName", "url":"https://mangolatte.dev", "likes": 12
+}
