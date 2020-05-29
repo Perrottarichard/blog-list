@@ -59,7 +59,7 @@ describe('blog content exists and is formatted correctly', () => {
         expect(200)
         await content.save();
         const res = await api.get('/api/blog')
-        expect(res.body[3].likes).toBe(0)
+        expect(res.body[2].likes).toBe(0)
     })
     test('missing title and url', async () => {
         const content = {
