@@ -1,7 +1,7 @@
-POST http://localhost:3003/api/blog
+POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJpY2hpZVAiLCJpZCI6IjVlY2U3NTZlZDFiYWZmMmFhZWE2ZjIwYiIsImlhdCI6MTU5MDY1Njk0Nn0.42VPTDYV1XNvyyqQhzv2nUXY6L9IAYZ8xH3GIyhcv_w
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJpY2hpZVAiLCJpZCI6IjVlY2U3NTZlZDFiYWZmMmFhZWE2ZjIwYiIsImlhdCI6MTU5MDc0MDk0OH0.8AoVAbnRUPbRKF_1fOO_AULmnuJem3AzrdhIZaVi7nI
 
 {
-    "title": "Sample 9", "author": "Mark", "url":"https://mangolatte.dev", "likes": 100, "userId": "5ece756ed1baff2aaea6f20b"
+    "title": "Sample 2", "author": "James", "url":"https://mangolatte.dev", "likes": 10
 }
